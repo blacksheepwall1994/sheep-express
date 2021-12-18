@@ -4,6 +4,17 @@
   place-items: center;
   margin: 16px;
 }
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Stops the float property from affecting content after the columns */
+.columns:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .rowbt{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}
 .justify-content-center{-ms-flex-pack:center!important;justify-content:center!important}
 .text-center {
@@ -124,6 +135,7 @@ body {
   flex-direction: column;
   min-height: var(--full-height);
   background-image: url(../img/background.png);
+  background-size: 1100px;
 }
 
 .subheader {
@@ -177,9 +189,9 @@ header button {
 }
 
 a {
-  /* font-weight: 500; */
+  font-weight: 500;
   color: var(--main-offwhite);
-  text-decoration: none;
+  text-decoration: dashed;
 }
 
 nav {
@@ -647,13 +659,13 @@ nav a:hover {
   margin: 10px 32px 10px 32px;
 }
 
-.economy,
-.work,
+.profile,
+.music,
 .reminders {
   flex-direction: row;
 }
 
-.gambling,
+.sim,
 .moderation,
 .other {
   flex-direction: row-reverse;

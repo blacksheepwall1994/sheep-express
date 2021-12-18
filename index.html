@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="./data/css/all.min.css">
     <link rel="stylesheet" href="./data/css/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Be%20Vietnam%20Pro:400,900,900i" rel="stylesheet">
     <link rel="shortcut icon" href="https://i.imgur.com/b2blEry.png">
 
 </head>
@@ -27,11 +27,15 @@
                 id="logo"></img></a>
         <nav>
             <ul class="nav_links nav-closed">
-                <li><a href="http://sheepu.me/">HOME</a></li>
-                <li><a href="http://sheepu.me/#features">FEATURES</a></li>
-                <li><a href="http://sheepu.me/">COMMANDS</a></li>
-                <li><a href="http://sheepu.me/">VOTE</a></li>
-                <li><a href="https://discord.gg/nWPXyjzm28" target="_blank">SUPPORT SERVER</a></li>
+                
+                <li><a href="http://sheepu.me/">VỀ CHÚNG TÔI</a></li>
+                <li><a href="http://sheepu.me/#features">TÍNH NĂNG</a></li>
+                <li><a href="commands.html">COMMANDS</a></li>
+                <li><a href="http://sheepu.me/">DONATE</a></li>
+                <li><div class="button-wrapper">
+                    <button class="button btn"><a href="invite.html">THÊM BOT</a></button>
+                </div>
+            </li>
             </ul>
         </nav>
         <div class="burger-wrapper">
@@ -90,55 +94,52 @@
             <h2 class="main-heading">Features</h2>
             <span class="text-divider">━━━━━━━━</span>
             <div class="features-container">
-                <div class="feature economy">
-                    <!-- <div class="feature-img-container">
-                        <img src="./data/economy.png" alt="Economy Features" class="feature-img">
-                    </div> -->
+                <div class="feature profile">
+                    <div class="feature-img-container">
+                        <img src="./data/img/rank.png" alt="Sim Features" class="feature-img">
+                    </div>
                     <div class="feature-desc">
-                        <h3 class="feature-title">Hệ Thống Tiền Tệ</h3>
-                        <!-- <p class="feature-text">Tận dụng hệ thống tiền tệ của chúng tôi để các bạn cùng nhau giao dịch,
-                            tương tác, cũng như là mua bán trong máy chủ!
-                        </p> -->
+                        <h3 class="feature-title">Profile</h3>
+                        <p class="feature-text">Kiếm tiền, kinh nghiệm bằng cách nhắn tin, điểm danh hằng ngày và mua đồ, thay đổi profile của bạn!
+                        </p>
                     </div>
                 </div>
-                <div class="feature gambling">
-                    <!-- <div class="feature-img-container">
-                        <img src="./data/gambling.png" alt="Gambling Features" class="feature-img">
-                    </div> -->
+                <div class="feature sim">
+                    <div class="feature-img-container">
+                        <img src="./data/img/sim.png" alt="Gambling Features" class="feature-img">
+                    </div>
                     <div class="feature-desc">
-                        <h3 class="feature-title">Trò Chơi &amp; Cờ Bạc</h3>
-                        <!-- <p class="feature-text">Đánh bạc và kiếm tiền, lựa chọn của chúng tôi là <b>blackjack, slot</b>
-                            và <b>coinflip</b>
-                        </p> -->
+                        <h3 class="feature-title">Chatbot</h3>
+                        <p class="feature-text">Bạn có thể nhắn tin, trò chuyện cùng bot
+                        </p>
                     </div>
                 </div>
-                <div class="feature work">
-                    <!-- <div class="feature-img-container">
-                        <img src="./data/work.png" alt="Work Features" class="feature-img">
-                    </div> -->
+                <div class="feature music">
+                    <div class="feature-img-container">
+                        <img src="./data/img/music.png" alt="Work Features" class="feature-img">
+                    </div>
                     <div class="feature-desc">
-                        <h3 class="feature-title">Công Việc &amp; Cày Tiền</h3>
-                        <!-- <p class="feature-text">Hệ thống sẽ cung cấp cho các bạn các lệnh như <b>fishing, work,
-                                daily</b> và một số lệnh nữa để giúp các bạn có thể kiểm tiền hằng ngày!
-                        </p> -->
+                        <h3 class="feature-title">Nghe nhạc 24/7</h3>
+                        <p class="feature-text">Chúng tôi cung cấp miễn phí nhạc 24/7, bạn có thể nghe nhạc trên mọi thiết bị
+                        </p>
                     </div>
                 </div>
-                <div class="feature moderation">
-                    <!-- <div class="feature-img-container">
+                <!-- <div class="feature moderation">
+                    <div class="feature-img-container">
                         <img src="./data/moderation.png" alt="Moderation Features" class="feature-img">
-                    </div> -->
+                    </div>
                     <div class="feature-desc">
                         <h3 class="feature-title">Hệ thống Quản lý</h3>
-                        <!-- <p class="feature-text">Bot cũng cung cấp cho bạn một số lệnh quản trị, giúp các bạn có thể quản
+                        <p class="feature-text">Bot cũng cung cấp cho bạn một số lệnh quản trị, giúp các bạn có thể quản
                             lý máy chủ của mình đơn giản hơn.
-                        </p> -->
+                        </p>
                     </div>
-                </div>
+                </div>  -->
             </div>
         </div>
     </main>
-    <div id="commands">
-        <h1>Thống kê</h1>
+    <div id="stats">
+        <h1 class="main-heading">Thống kê</h1>
         <div class="feature moderation">
             <div class="love_counter feature-desc">
                 <h1 class="love_count" style="font-size: 70px;">4000</h1>
@@ -152,24 +153,27 @@
 
 
     </div>
-    <div id="top">
-        <h1 class="text-center name" style="color: var(--secondary-text-color)">Top Servers Using Our Bot!</h1>
+    <div id='top'>
+        <h1 class="main-heading">Top Server Dùng Bot</h1>
         <div class="feature moderation">
             <div class="feature-desc">
-                <a href="https://discord.gg/WSCcCzn2" target="_blank"><img class="circular--portrait"
-                        src="https://cdn.discordapp.com/icons/915602804364673025/a_d843b099b886c9d48a3b1b3669e09509.gif?size=512"></a>
-                <a href="https://discord.gg/" target="_blank"><img class="circular--portrait"
-                        src="data/img/superthumb.png"></a>
-                <a href="https://discord.gg/" target="_blank"><img class="circular--portrait"
-                        src="data/img/superthumb.png"></a>
+                <a href="https://discord.com/invite/8EFMDwpz2G" target="_blank"><img class="circular--portrait"
+                    src="https://cdn.discordapp.com/icons/915602804364673025/a_d843b099b886c9d48a3b1b3669e09509.gif?size=1024"></a>
             </div>
-        </div>
+            <div class="feature-desc">
+                <a href="https://discord.com/invite/nWPXyjzm28" target="_blank"><img class="circular--portrait"
+                    src="https://cdn.discordapp.com/icons/324798939578499072/a_19ac68070aee6230535a448ea753e8aa.gif?size=1024"></a>
+            </div>
+            <div class="feature-desc">
+                <a href="https://discord.com/invite/8fATpxbsKr" target="_blank"><img class="circular--portrait"
+                    src="https://cdn.discordapp.com/icons/851846632076345355/09fb5712b2af45c6c72ac209054c64c6.png?size=512"></a>
+            </div>
+          </div>
     </div>
     
     <footer>
         <div class="feature moderation">
             <a id="button"></a>
-            
             <div class="feature-desc">
                 <a href="http://sheepu.me/"><span class="footer-sub">Sheep Bot © 2021</span></a><br><br>
             </div>
